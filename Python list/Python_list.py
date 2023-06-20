@@ -16,8 +16,9 @@ camping_list.append("rasperry pi")
 camping_list.extend(["tobak, snus"])
 
 #how to remove something with pythons in built classes
-camping_list.remove ("tent" "food")
+camping_list.remove ("tent")
 
+camping_list.pop (4)
 print (camping_list)
 
 
