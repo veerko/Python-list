@@ -15,6 +15,9 @@ camping_list.append("rasperry pi")
 #instead of append we can also use extend, where on append we can only add 1 item in a row, but with extend we can add more in the same row
 camping_list.extend(["tobak, snus"])
 
+#how to remove something with pythons in built classes
+camping_list.remove ("tent" "food")
+
 print (camping_list)
 
 
