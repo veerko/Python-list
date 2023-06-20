@@ -4,6 +4,7 @@
 
 camping_list = ["knife", "tent", "food", "water", "sleeping bags", "coffee"]
 
+#this is not needed but you can print it out if you want to see where the "camping trip is"
 camp_site = ["Lake", 404, 28.3, True]
 
 #instead of adding it to the list we use "append" 
@@ -18,7 +19,9 @@ camping_list.extend(["tobak, snus"])
 #how to remove something with pythons in built classes
 camping_list.remove ("tent")
 
+#use pop to remove things with their index
 camping_list.pop (4)
+
 print (camping_list)
 
 
